@@ -11,10 +11,10 @@ var myHeading = document.querySelector("h1");
 
 myImage.onclick=function() {
     var mySrc=myImage.getAttribute("src");
-    if (mySrc==="frontend/images/stevejobs.png"){
-        myImage.setAttribute("src","frontend/images/artworks-2yBgCOZyN8iw0x0P-yqtdOg-t1080x1080.png");
+    if (mySrc==="frontend/images/minecraftjpg.jpg"){
+        myImage.setAttribute("src","frontend/images/terrariajpg.jpg");
     } else{
-        myImage.setAttribute("src", "frontend/images/stevejobs.png")
+        myImage.setAttribute("src", "frontend/images/minecraftjpg.jpg")
     }
 }
 
